@@ -1,0 +1,152 @@
+{
+    "extends": [
+        "tslint:latest"
+    ],
+    "rules": {
+        "align": {
+            "severity": "warning",
+            "options": [
+                "parameters",
+                "statements"
+            ]
+        },
+        "ban": false,
+        "class-name": true,
+        "comment-format": {
+            "severity": "warning",
+            "options": [
+                "check-space"
+            ]
+        },
+        "curly": true,
+        "eofline": false,
+        "forin": true,
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "interface-name": [
+            true,
+            "never-prefix"
+        ],
+        "jsdoc-format": true,
+        "label-position": true,
+        "max-line-length": {
+            "severity": "warning",
+            "options": [
+                120
+            ]
+        },
+        "member-ordering": [
+            true,
+            {
+              "order": [
+                "public-static-method",
+                "public-static-field",
+                "protected-static-field",
+                "protected-static-method",
+                "private-static-field",
+                "private-static-method",
+                "public-instance-field",
+                "protected-instance-field",
+                "private-instance-field",
+                "public-constructor",
+                "protected-constructor",
+                "private-constructor",
+                "public-instance-method",
+                "protected-instance-method",
+                "private-instance-method"
+              ]
+            }
+        ],
+        "no-any": true,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-consecutive-blank-lines": {
+            "severity": "warning"
+        },
+        "no-console": false,
+        "no-construct": true,
+        "no-debugger": {
+            "severity": "warning"
+        },
+        "no-duplicate-variable": true,
+        "no-empty": {
+            "severity": "warning"
+        },
+        "no-eval": true,
+        "no-implicit-dependencies": false,
+        "no-shadowed-variable": true,
+        "no-string-literal": true,
+        "no-submodule-imports": false,
+        "no-switch-case-fall-through": true,
+        "no-trailing-whitespace": false,
+        "no-unused-expression": true,
+        "no-use-before-declare": true,
+        "object-literal-sort-keys": false,
+        "one-line": {
+            "severity": "warning",
+            "options": [
+                "check-catch",
+                "check-else",
+                "check-open-brace",
+                "check-whitespace"
+            ]
+        },
+        "prefer-conditional-expression": false,
+        "quotemark": {
+            "severity": "warning",
+            "options": [
+                "single",
+                "jsx-double"
+            ]
+        },
+        "radix": false,
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "switch-default": true,
+        "trailing-comma": [
+            false
+        ],
+        "triple-equals": [
+            true,
+            "allow-null-check"
+        ],
+        "typedef": [
+            true,
+            "parameter",
+            "property-declaration"
+        ],
+        "typedef-whitespace": {
+            "severity": "warning",
+            "options": {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            }
+        },
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-leading-underscore",
+            "allow-pascal-case"
+        ],
+        "whitespace": {
+            "severity": "warning",
+            "options": [
+                "check-branch",
+                "check-decl",
+                "check-module",
+                "check-operator",
+                "check-separator",
+                "check-type",
+                "check-typecast"
+            ]
+        }
+    }
+}
